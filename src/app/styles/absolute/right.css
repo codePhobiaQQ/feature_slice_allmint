@@ -1,0 +1,12 @@
+.right_0 {
+  right: 0px;
+}
+.right_10 {
+  right: var(--px10);
+}
+.right_24 {
+  right: var(--px24);
+}
+.right_30 {
+  right: var(--px30);
+}

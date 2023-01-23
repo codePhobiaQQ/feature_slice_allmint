@@ -1,3 +1,3 @@
-const hello = '';
+import LayoutMain from './LayoutMain';
 
-export default hello;
+export default LayoutMain;

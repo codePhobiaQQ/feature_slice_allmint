@@ -1,0 +1,12 @@
+.p_r_5 {
+  padding-right: var(--px5);
+}
+.p_r_8 {
+  padding-right: var(--px8) !important;
+}
+.p_r_20 {
+  padding-right: var(--px20);
+}
+.p_r_40 {
+  padding-right: var(--px40);
+}

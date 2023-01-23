@@ -1,2 +1,12 @@
-@import "./normalize.css";
-@import "./vars.css";
+/* @import '~/slick-carousel/slick/slick.css'; */
+/* @import '~/slick-carousel/slick/slick-theme.css'; */
+@import '~reset-css';
+@import './absolute/index.css';
+@import './margins/index.css';
+@import './paddings/index.css';
+@import './sizes/index.css';
+@import './vars/index.css';
+@import './color.css';
+@import './framework.css';
+@import './fz.css';
+@import './order.css';

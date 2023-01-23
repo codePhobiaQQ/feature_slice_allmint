@@ -1,0 +1,44 @@
+header {
+  border-bottom: 1px solid;
+  width: 100%;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  height: var(--sticky-offset);
+  transition: var(--transition-all);
+}
+
+.HeaderWrapper {
+  height: var(--sticky-offset);
+}
+
+.headerRightSide {
+  display: flex;
+  flex: 1 0 0;
+  position: relative;
+}
+
+.accountInfo {
+  width: var(--navigationLeftColWidth);
+  transition: var(--transition-all);
+  box-sizing: border-box;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+/* ---- ColorMode ---- */
+.dark {
+  background-color: var(--accent1);
+  border-color: var(--accent2) !important;
+}
+.dark .accountInfo {
+  border-color: var(--accent2);
+}
+
+.light {
+  background-color: var(--white);
+  border-color: var(--accent6) !important;
+}
+.light .accountInfo {
+  border-color: var(--accent6);
+}

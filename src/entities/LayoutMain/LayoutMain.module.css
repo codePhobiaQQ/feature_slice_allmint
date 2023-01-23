@@ -1,0 +1,21 @@
+.LayoutMain {
+  position: relative;
+  overflow-y: hidden;
+  transition: var(--transition-all);
+}
+
+.dark {
+  background-color: var(--accent1);
+  color: var(--white);
+}
+.light {
+  background-color: var(--white);
+  color: var(--accent5);
+}
+
+.ContentWrapper {
+  position: relative;
+  /*left: calc(var(--navigationLeftColWidth) + 2px);*/
+  top: calc(var(--sticky-offset) * 0.5);
+  z-index: 1;
+}

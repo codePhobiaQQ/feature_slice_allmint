@@ -1,0 +1,134 @@
+.position-absolute {
+  position: absolute;
+}
+.position-relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_all {
+  flex: 1 0 0;
+}
+
+d-none {
+  display: none;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.no-touch {
+  cursor: default;
+  pointer-events: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bs-bb {
+  box-sizing: border-box !important;
+}
+
+.ws-nw {
+  white-space: nowrap;
+}
+
+.d-ib {
+  display: inline-block;
+}
+
+.transition-fill {
+  transition: var(--transition-fill);
+}
+
+.z_i_1 {
+  z-index: 1;
+}
+
+/* ---- tranforming ---- */
+
+.rotate90 {
+  transform: rotate(90deg);
+}
+
+.rotate-90 {
+  transform: rotate(-90deg);
+}
+
+/* ---- BG ---- */
+
+.bgAccent9 {
+  background-color: var(--accent9) !important;
+}
+
+/* ---- Borders ---- */
+
+.b_3_red {
+  border: 3px solid var(--red);
+}
+.b_3_yellow {
+  border: 3px solid var(--yellow);
+}
+.b_3_green {
+  border: 3px solid var(--green);
+}
+.br_10 {
+  border-radius: var(--px10);
+}
+
+/* ---- Fill color ---- */
+
+.fill_red {
+  fill: var(--red);
+}
+.fill_red path {
+  fill: var(--red);
+}
+
+/* ---- buttons ----*/
+
+.btn_red {
+  border: 1px solid var(--red) !important;
+  color: var(--red) !important;
+}
+.btn_red:hover {
+  background-color: var(--red) !important;
+  color: var(--white) !important;
+}
+
+.btn_disable {
+  opacity: 0.4;
+  pointer-events: none;
+}

@@ -1,0 +1,42 @@
+@import './../vars/var.css';
+
+.w_10 {
+  width: var(--px10);
+}
+.w_15 {
+  width: var(--px15);
+}
+.w_18 {
+  width: var(--px18);
+}
+.w_38 {
+  width: var(--px38);
+}
+.w_40 {
+  width: var(--px40);
+}
+.w_48 {
+  width: var(--px48);
+}
+.w_60 {
+  width: var(--px60);
+}
+.w_73 {
+  width: var(--px73);
+}
+.w_80 {
+  width: var(--px80);
+}
+.w_120 {
+  width: var(--px120);
+}
+.w_150 {
+  width: var(--px150);
+}
+.w_180 {
+  width: var(--px180);
+}
+
+.w_all {
+  width: 100% !important;
+}

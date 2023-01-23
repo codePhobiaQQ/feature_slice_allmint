@@ -1,0 +1,16 @@
+.m_l_4 {
+  margin-left: var(--px4);
+}
+.m_l_5 {
+  margin-left: var(--px5);
+}
+.m_l_10 {
+  margin-left: var(--px10);
+}
+.m_l_20 {
+  margin-left: var(--px20);
+}
+
+.m_l_auto {
+  margin-left: auto;
+}
