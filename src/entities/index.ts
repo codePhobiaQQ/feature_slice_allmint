@@ -1,3 +1,3 @@
-import LayoutMain from './LayoutMain';
+import LayoutMainEntities from './LayoutMainEntities';
 
-export default LayoutMain;
+export default LayoutMainEntities;

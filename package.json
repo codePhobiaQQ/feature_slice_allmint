@@ -23,10 +23,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "craco start",
+    "start-prev": "react-scripts start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
     "prepare": "husky install"
   },
   "eslintConfig": {
@@ -48,14 +49,19 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.0.0",
+    "@craco/types": "^7.0.0",
     "@types/compose-function": "^0.0.30",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
     "classnames": "^2.3.2",
+    "craco-alias": "^3.0.1",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.32.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",

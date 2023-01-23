@@ -18,6 +18,22 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "react/display-name": "off"
+    "react/display-name": "off",
+    "@typescript-eslint/ban-ts-comment": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@shared", "./src/shared"],
+          ["@entities", "./src/entities"],
+          ["@features", "./src/features"],
+          ["@widgets", "./src/widgets"],
+          ["@pages", "./src/pages"],
+          ["@app", "./src/app"]
+        ],
+        "extensions": [".ts", ".js", ".jsx", ".json"]
+      }
+    }
   }
 }

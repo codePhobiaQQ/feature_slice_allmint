@@ -1,0 +1,46 @@
+.LayoutMain {
+  position: relative;
+  overflow-y: hidden;
+  transition: var(--transition-all);
+}
+
+.leftSide {
+  width: var(--navigationLeftColWidth);
+  padding: var(--px12) var(--px20);
+  position: fixed;
+  z-index: 5;
+  top: calc(var(--sticky-offset) + 1px);
+  height: calc(100vh - var(--sticky-offset));
+  transition: var(--transition-all);
+  border-right: 1px solid;
+  overflow-x: visible;
+}
+
+.rightSide {
+  position: relative;
+  left: var(--navigationLeftColWidth);
+  width: calc(100% - var(--navigationLeftColWidth));
+  z-index: 2;
+}
+
+.rightSideBorderInner {
+  border-bottom: 1px solid;
+  height: 100%;
+  transition: var(--transition-all);
+}
+
+.ContentWrapper {
+  position: relative;
+  /*left: calc(var(--navigationLeftColWidth) + 2px);*/
+  top: calc(var(--sticky-offset) * 0.5);
+  z-index: 1;
+}
+
+/* .dark {
+  background-color: var(--accent1);
+  color: var(--white);
+}
+.light {
+  background-color: var(--white);
+  color: var(--accent5);
+} */
