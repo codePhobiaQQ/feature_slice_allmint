@@ -1,0 +1,17 @@
+.HeartIconSvg {
+  cursor: pointer;
+  transition: var(--transition-fill);
+}
+
+/* ---- ColorMode ---- */
+.dark {
+  fill: var(--accent1);
+}
+.dark:hover {
+  fill: var(--white);
+}
+.dark.active {
+  fill: var(--white);
+}
+.light {
+}

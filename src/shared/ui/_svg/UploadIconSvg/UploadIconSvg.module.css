@@ -1,0 +1,39 @@
+.UploadIconSvg {
+  transition: var(--transition-all);
+  padding: var(--px5);
+  border: 1px solid;
+  border-radius: var(--px5);
+  cursor: pointer;
+}
+
+/* ---- ColorMode ---- */
+.dark {
+  background-color: var(--accent1);
+}
+.dark path {
+  fill: var(--white);
+  border-color: var(--white);
+}
+
+.dark:hover {
+  background-color: var(--white);
+}
+.dark:hover path {
+  fill: var(--accent1);
+  border-color: var(--accent1);
+}
+
+.light {
+  background-color: var(--white);
+}
+.light path {
+  fill: var(--accent1);
+}
+
+.light:hover {
+  background-color: var(--accent1);
+}
+.light:hover path {
+  fill: var(--white);
+  border-color: var(--white);
+}

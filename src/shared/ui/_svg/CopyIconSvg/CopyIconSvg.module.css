@@ -1,0 +1,14 @@
+.CopyIconSvg {
+  transition: var(--transition-fill);
+  cursor: pointer;
+}
+
+/* ---- ColorMode ---- */
+.dark {
+  fill: var(--accent2);
+}
+.dark:hover {
+  fill: var(--white);
+}
+.light {
+}
